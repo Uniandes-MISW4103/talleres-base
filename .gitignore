@@ -1,0 +1,23 @@
+# Outputs of the workshops: generated when they run, never committed.
+node_modules/
+results/
+test-results/
+playwright-report/
+cypress/screenshots/
+cypress/videos/
+.DS_Store
+
+# Only plain-text files are committed: no images, media, archives or documents.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.ico
+*.mp4
+*.webm
+*.zip
+*.gz
+*.tar
+*.pdf

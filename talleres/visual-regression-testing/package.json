@@ -1,0 +1,20 @@
+{
+  "name": "taller-visual-regression-testing",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "setup": "playwright install chromium",
+    "vrt": "node runner/vrt.js"
+  },
+  "devDependencies": {
+    "canvas": "~3.2.3",
+    "playwright": "~1.63.0",
+    "resemblejs": "~5.0.0"
+  },
+  "allowScripts": {
+    "canvas": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "talleres-misw4103",
+  "private": true,
+  "description": "Talleres del curso Pruebas Automatizadas de Software (MISW4103)",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "app:up": "node scripts/app.js up",
+    "app:down": "node scripts/app.js down",
+    "app:reset": "node scripts/app.js reset"
+  }
+}

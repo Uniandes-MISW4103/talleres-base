@@ -1,0 +1,19 @@
+{
+  "name": "taller-end-to-end-testing",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "setup": "cypress install",
+    "cypress": "cypress open",
+    "e2e": "node runner/run.js"
+  },
+  "devDependencies": {
+    "cypress": "~16.1.1"
+  },
+  "allowScripts": {
+    "cypress": true
+  }
+}

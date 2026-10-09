@@ -1,0 +1,42 @@
+/* EverShop "release" for the VRT workshop. Served by the proxy on http://localhost:3001. */
+
+.product__single__price {
+  color: #0f766e !important;
+  font-size: 2rem !important;
+}
+
+.product__list__name {
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #e2e8f0 !important;
+}
+
+#release-banner {
+  padding: 8px 16px;
+  background: #0f766e;
+  color: #ffffff;
+  font: 600 14px/1.4 system-ui, sans-serif;
+  text-align: center;
+}
+
+.category__name {
+  letter-spacing: 0.3em;
+}
+
+.login__form__title {
+  text-align: left !important;
+}
+
+@media (max-width: 639px) {
+  .mini-cart-icon {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .product__list__price {
+    color: transparent !important;
+  }
+}

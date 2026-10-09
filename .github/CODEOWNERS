@@ -1,0 +1,12 @@
+# The teaching team owns the repository: environment, runners, configuration and dependencies.
+* @Uniandes-MISW4103/equipo-docente
+
+# Files students edit (patterns without owners).
+/talleres/monkey-testing/src/actions.js
+/talleres/monkey-testing/README.md
+/talleres/behavior-driven-development/features/
+/talleres/behavior-driven-development/README.md
+/talleres/visual-regression-testing/vrt.config.js
+/talleres/visual-regression-testing/README.md
+/talleres/end-to-end-testing/cypress/e2e/customer-checkout.cy.js
+/talleres/end-to-end-testing/README.md
